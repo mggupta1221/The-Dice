@@ -1,0 +1,101 @@
+body{
+    background-color: grey;
+    text-align: center;
+
+}
+
+p{
+    color:darkgray;
+    font-family: cursive;
+    position: relative;
+    top:65px;
+}
+
+
+
+.heading{
+    display: inline-block;
+    margin:0 auto 0 auto;
+    /* max-height: 100%;
+    max-width: 100%; */
+    height: auto;
+    width: auto;
+    padding:20px;
+
+}
+
+.dice{
+    background-color: white;
+    width:20%;           /* 4-% in mobilein pixels so that it adjust with viewport */
+    position: relative ;
+    top:20px;            
+    
+ 
+}
+
+.button{
+    position: relative;
+    top:66px;
+
+}
+.myButton {
+	box-shadow: -1px 4px 27px -1px #384d32;
+	background-color:#eeecda;
+	border-radius:18px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Courier New;
+	font-size:22px;
+	font-weight:bold;
+	padding:13px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:0.5px;
+}
+
+
+
+
+/************ANIMATIONS ******************/
+/* The animation code
+@keyframes example {
+    from {}
+    to {background-color: yellow;}
+  }
+  
+  /* The element to apply the animation to */
+/* div.button{
+    width: 100px;
+    height: 100px;
+    background-color:grey;
+    animation-name: rollingDice;
+    animation-duration: 4s;
+  } */
+
+
+
+
+
+
+
+
+/* ********************MEDIA QUERIES For RESPONSIVENESS ******************/
+
+@media only screen and (max-width: 600px) {
+    .dice{
+        width:40%;
+
+
+    }
+    .headimg{
+        width:90%;
+    }
+  }
